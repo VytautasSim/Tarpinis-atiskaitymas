@@ -202,7 +202,7 @@ i {
 
 .testimonials {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     position: relative;
@@ -211,6 +211,36 @@ i {
     background: rgb(228, 225, 225);
 }
 
+.testimonials-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonials-img1 {
+    width: 160px;
+    height: 160px;
+    background-image: url("testimonials-1-min.jpg");
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.testimonials-img2 {
+    width: 160px;
+    height: 160px;
+    background-image: url("testimonials-2-min.jpg");
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.testimonials-img3 {
+    width: 160px;
+    height: 160px;
+    background-image: url("testimonials-3-min.jpg");
+    background-size: cover;
+    border-radius: 50%;
+}
 
 
 
