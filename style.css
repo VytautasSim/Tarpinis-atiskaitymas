@@ -97,7 +97,7 @@ header .header-tittle {
     width: 100%
 }
 
-/* Icons section styles */
+/* Icons-grid section styles */
 
 .icons-grid {
     display: flex;
@@ -138,8 +138,13 @@ i {
     font-size: 20px;
     margin: 15px;
     text-align: center;
-
 }
+
+/* Text-image-grid style */
+
+
+
+
 
 
 /* Media-queries */
