@@ -97,6 +97,31 @@ header .header-tittle {
     width: 100%
 }
 
+/* Icons section styles */
+
+.icons-grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /* margin-top: 51px; */
+    padding: 100px 0;
+    background: rgb(228, 225, 225);
+}
+
+.icon {
+    margin: 30px;
+    background-color: indianred;
+    border: 2px solid black;
+}
+
+i {
+   font-size: 100px; 
+}
+
+
+
 /* Media-queries */
 
 @media (max-width: 700px) {
