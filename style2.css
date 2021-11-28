@@ -151,51 +151,49 @@ i {
     align-items: center;
 }   
 
-.odd {
+.odds {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    /* width: 100%;
-    height: 100%; */
+    width: 100%;
+    height: 100%;
     text-decoration: none;
 }
 
-.odd-text, .even-text {
+.odds-text, .evens-text {
     display: flex;
     flex-direction: column;
-    position: relative;
     align-items: center;
     justify-content: center;
     text-align: justify;
 }
 
-.odd-picture {
+.odds-picture {
     display: block;
     width: 100%;
     height: 100%;
 }
 
-.odd-picture img {
+.odds-picture img {
     width: 100%;
     height: 100%;
 }
 
-.even {
+.evens {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    /* width: 100%;
-    height: 100%; */
+    width: 100%;
+    height: 100%;
     text-decoration: none;
 }
 
-.even-picture {
+.evens-picture {
     display: block;
     width: 100%;
     height: 100%;
 }
 
-.even-picture img {
+.evens-picture img {
     width: 100%;
     height: 100%;
 }
@@ -284,25 +282,22 @@ i {
     z-index: 1;
 }
 
-.hero-small .content h1 {
+.small .content h1 {
     color: #fff;
     font-size: 30px;
     text-align: center;
-
-    text-align: center;
-    max-width: 650px;
+    max-width: 700px;
     width: 100%
 }
 
 form {
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: center;
 }
 
 #email {
-    width: 80%;
+    width: 70%;
     margin-right: 5px;
     height: 30px;
     border-radius: 5px;
@@ -311,7 +306,7 @@ form {
 }
 
 .form .button {
-    display: flex;
+    display: inline-block;
     font-weight: 400;
     color: #fff;
     border-radius: 4px;
@@ -322,69 +317,15 @@ form {
     transition: 0.3s ease-in-out;
 }
 
-/* Section footer style */
 
-.footer {
-    display: flex;
-    flex-direction: row;
-}
 
-ul {
-    display: flex;
-    flex-direction: row;
-    color: blue;
-}
 
-/* Sekciotn Footer style */
 
-/* footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding-top: 15px;
-    padding-bottom: 15px;
-} */
-
-footer a {
-    text-decoration: none;
-}
-
-.footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-content: center;
-    padding-top: 20px;
-}
-
-.link {
-    padding-left: 10px;
-    padding-right: 10px;
-    text-decoration: none;
-    color: blue;
-}
-
-span {
-    color: black;
-    padding-right: 10px;
-}
-
-.end-text {
-    font-size: 12px;
-    padding-left: 28px;
-
-}
-.awesome {
-    font-size: 30px;
-    color: rgb(62, 62, 255);
-    margin: 10px;
-
- }
 
 
 /* Media-queries */
 
-@media (max-width: 800px) {
+@media (max-width: 700px) {
     .hero {
         padding: 50px 0;
     }
@@ -392,42 +333,13 @@ span {
         flex-direction: column;
     }
 
-    .odd, .even {
+    .odds, .evens {
         flex-direction: column;
-    }
-
-    .odd-text, .even-text {
-        padding-left: 5%;
-        padding-right: 5%;
     }
 
     .testimonials-list {
         flex-direction: column;
     }
 
-    form {
-        flex-direction: column;
-    }
-
-    #email {
-        margin-right: 0px;
-    }
-
-    .button {
-        margin-top: 10px;
-        width: 76%;
-        text-align: center;
-    }
-
-    .footer {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .end-text {
-        padding-left: 105px;
-    }
-
-}   
+}
 
