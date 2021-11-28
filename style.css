@@ -169,15 +169,17 @@ i {
     text-align: justify;
 }
 
-.odd-picture {
+.odd-picture .even-picture {
     display: block;
     width: 100%;
     height: 100%;
+    
 }
 
 .odd-picture img {
     width: 100%;
     height: 100%;
+
 }
 
 .even {
@@ -189,11 +191,11 @@ i {
     text-decoration: none;
 }
 
-.even-picture {
+/* .even-picture {
     display: block;
     width: 100%;
     height: 100%;
-}
+} */
 
 .even-picture img {
     width: 100%;
@@ -230,6 +232,7 @@ i {
     background-image: url("testimonials-1-min.jpg");
     background-size: cover;
     border-radius: 50%;
+    box-shadow: 10px 10px 5px grey;
 }
 
 .testimonials-img2 {
@@ -238,6 +241,7 @@ i {
     background-image: url("testimonials-2-min.jpg");
     background-size: cover;
     border-radius: 50%;
+    box-shadow: 10px 10px 5px grey;
 }
 
 .testimonials-img3 {
@@ -246,6 +250,7 @@ i {
     background-image: url("testimonials-3-min.jpg");
     background-size: cover;
     border-radius: 50%;
+    box-shadow: 10px 10px 5px grey;
 }
 
 /* Section Hero small style */
