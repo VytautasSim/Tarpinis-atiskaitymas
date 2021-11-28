@@ -200,6 +200,10 @@ i {
     height: 100%;
 }
 
+.odd-picture, .even-picture, .odd-text, .even-text {
+    width: 50%;
+}
+
 /* Section Testimonials style */
 
 .testimonials {
@@ -427,6 +431,10 @@ span {
 
     .end-text {
         padding-left: 105px;
+    }
+
+    .odd-picture, .even-picture, .odd-text, .even-text {
+        width: 100%;
     }
 
 }   
